@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pruebaCuentas</string>
+    <string name="title_all">TODAS</string>
+    <string name="title_visibles">SOLO VISIBLES</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/accountName_alias"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="nombre - alias"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accountNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:text="NUMBER"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/accountBalanceInCents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:text="BALANCE"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/accountCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="CURRENCY"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/accountBalanceInCents"
+            android:layout_alignStart="@+id/accountBalanceInCents" />
+
+        <TextView
+            android:id="@+id/accountId"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nombre"
+            android:layout_alignBottom="@+id/nombre"
+            android:layout_alignParentEnd="true"
+            android:text="ID"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/accountType"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nombre"
+            android:layout_alignBottom="@+id/nombre"
+            android:layout_alignParentEnd="true"
+            android:text="Tipo"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/isVisible"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nombre"
+            android:layout_alignBottom="@+id/nombre"
+            android:layout_alignParentEnd="true"
+            android:text="VISIBLE"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/iban"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nombre"
+            android:layout_alignBottom="@+id/nombre"
+            android:layout_alignParentEnd="true"
+            android:text="IBAN"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
